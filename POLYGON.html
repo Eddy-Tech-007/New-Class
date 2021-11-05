@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="EXTERNAL.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="background-color: tomato">tomato</h1>
+    <hi style="background-color: dodgerBlue">hello world</hi>
+    <p style="background-color: brown">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto a
+      corrupti voluptate voluptatibus non numquam quam distinctio voluptatem
+      rerum nam iste, exercitationem necessitatibus dicta quibusdam nulla ab!
+      Consectetur, eos error.
+    </p>
+    <h1 style="color: brown">You are beautiful to me</h1>
+    <h1 style="border: 3px solid tomato">Bye Wurld</h1>
+    <h2>Journey Links</h2>
+    <h2>The target attribute</h2>
+    <a href="index.html" target="_blank">Visit our HTML tutorial</a>
+    <p><a href="index.html">Visit my Webpage</a></p>
+    <p>This image is a link... Click on it</p>
+    <a href="default.html">
+      <img
+        src="images/IMG_5662.jpg"
+        alt="HTML tutorial"
+        style="width: 42px; height: 42px; border: 0"
+      />
+      <img
+        src="images/IMG_5662.jpg"
+        alt="Picture of a beautiful girl"
+        style="width: 66px; height: auto; border: azure"
+      />
+    </a>
+    <div style="background-color: black; color: white; padding: 40px">
+      <h2>London</h2>
+      <p1>
+        London is the capital city of England. It is the most populous city in
+        the United Kingdom, with a metropolitan area of over 13 million
+        inhabitants.
+      </p1>
+      <p1>
+        Standing on the River Thames, London has been a major settlement for two
+        millennia, its history going back to its founding by the Romans, who
+        named it Londinium.
+      </p1>
+    </div>
+    <style>
+      .pudding {
+        background-color: burlywood;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+      }
+      #myHeader {
+        background-color: crimson;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+    </style>
+    <button onclick="myFunction()">Expand</button>
+    <div class="pudding main">
+      <h2 id="myHeader">London</h2>
+      <p2>London is the capital of England</p>
+    </div>
+    <div class="pudding">
+      <h2 id="myHeader">Paris</h2>
+      <p2>Paris is the capital of France</p>
+    </div>
+    <div class="pudding">
+      <h2 id="myHeader">Tokyo</h2>
+      <p2>Tokyo is the capital of Japan </p2>
+    </div>
+    <script>
+      function myFunction() {
+        var x= document. getElementsByClassName("pudding");
+        for (var i = 0; i < x. length; i++) {
+          x[i].style.display= "none";
+      }
+    }
+    </script>
+    <p3><a href="#C3">Skip to Chapter 3</a></p3>
+    <p3><a href="#C6">Skip to Chapter 6</a></p3>
+    <h3>Chapter 1</h3>
+    <p3>Chapter 1 talks about bla bla bla</p3>
+    <h3>Chapter 2</h3>
+    <p3>Chapter 2 talks about bla bla bla</p3>
+    <h3 id="C3"> Chapter 3</h3>
+    <p3>Chapter 3 talks about bla bla bla</p3>
+    <h3>Chapter 4</h3>
+    <p3>Chapter 4 talks about bla bla bla</p3>
+    <h3>Chapter 5</h3>
+    <p3>Chapter 5 talks about bla bla bla</p3>
+    <h3 id="C6"> Chapter 6</h3>
+    <p3>This chapter talks about bla bla bla</p3>\
+    <h4>You can use this attribute in JavaScript...Trust me!!!</h4>
+    <p4>So i'm going to show you how to use this button right here:</p4>
+    <h4 id="myHeader">Hello...</h4>
+    <button onclick="displayResult()">Next</button>
+    <script>
+      function displayResult() {
+        document.getElementById("myHeader").innerHTML = "Have a nice day!";
+      }
+    </script>
+  </body>
+</html>
